@@ -1,0 +1,70 @@
+# .project metadata for ModelPack
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "modelpack"
+name: "ModelPack"
+description: "The project establishes open standards for packaging, distributing and running AI artifacts in the cloud-native environment."
+type: "project"
+project_lead: "chlins" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#modelpack"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-05-13T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/358" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/modelpack/model-spec"
+
+website: "https://github.com/modelpack/model-spec"
+
+artwork: "https://landscape.cncf.io/logos/modelpack.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/modelpack/model-spec/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "modelpack/model-spec"
+
+
+security:
+  policy:
+    path: "https://github.com/modelpack/model-spec/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/modelpack/model-spec/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/modelpack/model-spec/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/modelpack/model-spec/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/modelpack/model-spec/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/modelpack/model-spec/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 84/100
+# Documentation: 79 | License: 100 | Best Practices: 62 | Security: 100

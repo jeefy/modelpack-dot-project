@@ -1,0 +1,21 @@
+# Maintainer roster for ModelPack
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "modelpack"
+    org: "modelpack"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - chlins
+          - gaius-qi
+          - bergwolf
+          - sabre1041
+          - tarilabs
+          - wy65701436
+          - bmicklea
+          - raravena80
+          - aftersnow
+          - gorkem
